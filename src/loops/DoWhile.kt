@@ -1,4 +1,4 @@
-package basics
+package loops
 
 fun main() {
     var i = 5

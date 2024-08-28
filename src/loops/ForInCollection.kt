@@ -1,4 +1,4 @@
-package basics
+package loops
 
 fun main() {
     val fruits = listOf("Apple", "Banana", "Cherry")

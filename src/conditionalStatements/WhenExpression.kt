@@ -1,4 +1,4 @@
-package basics
+package conditionalStatements
 
 fun main() {
     val dayOfWeek = 3

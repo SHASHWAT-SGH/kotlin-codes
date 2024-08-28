@@ -1,4 +1,4 @@
-package basics
+package operators
 
 fun main() {
     var a = 10
