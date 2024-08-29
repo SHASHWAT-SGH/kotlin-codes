@@ -9,7 +9,16 @@ fun fToC(f: Double):Double{
 }
 
 fun main() {
-    println(cToF(100.toDouble()))
-    println(fToC(212.toDouble()))
+    println("Enter the temperature (in celsius) to convert (in fahrenheit):")
+    val inputC = readlnOrNull()?.toDoubleOrNull()
+    println("Enter the temperature (in fahrenheit) to convert (in celsius) :")
+    val inputF = readlnOrNull()?.toDoubleOrNull()
+    if (inputC == null || inputF == null) {
+        println("Invalid input. Please provide a valid value.")
+    }else{
+        println(cToF(inputC))
+        println(fToC(inputF))
+    }
+
 
 }
